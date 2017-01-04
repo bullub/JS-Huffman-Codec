@@ -1,10 +1,9 @@
 # JS-Huffman-Codec
 A Huffman coding standard and codec implementation.
 
-Get Start  
+>Get Start
 
-```javascript 1.8
-
+```javascript
 //通过一个数组，code表示字符，value表示字频
 //Use an array of code represent a character value word frequency.
 let ht = HuffmanCodec.createTree([
@@ -42,5 +41,6 @@ console.log(encodedBuffer);
 //打印根据4个字节和赫夫曼树进行译码的字符串结果——我是中国人，我爱中国
 //Prints according to the 4 bytes and decoding of Huffman tree string result--我是中国人，我爱中国
 console.log(HuffmanCodec.decode(encodedBuffer, ht));
-
 ```
+
+
