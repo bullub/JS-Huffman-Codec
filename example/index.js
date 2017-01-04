@@ -4,7 +4,6 @@
  * 用途:
  */
 "use strict";
-
 const HuffmanCodec = require("../src/HuffmanCodec");
 
 //我是中国人，我爱中国
